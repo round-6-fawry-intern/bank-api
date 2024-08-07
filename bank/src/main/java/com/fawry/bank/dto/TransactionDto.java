@@ -9,8 +9,11 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 public class TransactionDto {
+
     String CardNumber;
     double amount;
     String method;
+
+
 
 }

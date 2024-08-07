@@ -48,5 +48,9 @@ public class User  {
     @OneToMany(mappedBy = "user")
     List<Account> accounts;
 
-
+    @Override
+    public String toString() {
+        return String.format("User{id=%d, user_name='%s', email='%s', role='%s'}",
+                id, user_name, email, role);
+    }
 }

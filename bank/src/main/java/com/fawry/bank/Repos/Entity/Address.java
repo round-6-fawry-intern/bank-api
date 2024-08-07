@@ -49,4 +49,10 @@ public class Address {
         Streate = streate;
         HouseID = houseID;
     }
+
+    @Override
+    public String toString() {
+        return String.format("Address{id=%d, Country='%s', State='%s', City='%s', Streate='%s', HouseID='%s'}",
+                id, Country, State, City, Streate, HouseID);
+    }
 }

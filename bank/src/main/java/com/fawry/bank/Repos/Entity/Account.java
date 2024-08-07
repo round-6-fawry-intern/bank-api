@@ -42,4 +42,10 @@ public class Account {
     @JoinColumn(name = "id")
     Address address;
 
+    @Override
+    public String toString() {
+        return String.format("Account{id=%d, CardNumber='%s', Deposit=%f, PhoneNumber='%s'}",
+                id, CardNumber, Deposit, PhoneNumber);
+    }
+
 }

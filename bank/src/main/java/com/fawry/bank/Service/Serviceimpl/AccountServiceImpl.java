@@ -197,7 +197,12 @@ public class AccountServiceImpl implements AccountService {
     @Transactional
     @Override
     public String DrawFromAccount(String CardNumber,double amount) {//deposit with draw
+    System.out.println(CardNumber);
         Account  account= accountRepo.findByCardNumber(CardNumber);
+
+    System.out.println(account);
+        System.out.println(amount);
+        System.out.println(account.getDeposit());
 
         if(amount >account.getDeposit()) throw new RuntimeException("Cant Draw amount is larger than your palance");
 

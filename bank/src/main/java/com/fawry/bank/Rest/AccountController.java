@@ -60,6 +60,7 @@ public class AccountController {
     @PutMapping("/transaction")
     @ResponseStatus(HttpStatus.OK)
     public void DrawFromAccount(@RequestBody TransactionDto transactional){
+    System.out.println(transactional.toString());
         if (transactional.getMethod().equals("Draw")) {
             accountService.DrawFromAccount(transactional.getCardNumber(), transactional.getAmount());
         }
