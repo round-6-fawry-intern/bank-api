@@ -28,7 +28,6 @@ Backend service developed during the Fawry Egypt “Round 6” internship, provi
 | Backend        | Java, Spring Boot           |
 | Frontend       | Angular                     |
 | Database       | (e.g., PostgreSQL / MySQL)  |
-| Messaging      | (e.g., TIBCO, Kafka)        |
 | Containerization | Docker, Kubernetes        |
 | Testing        | Integration & load testing  |
 
