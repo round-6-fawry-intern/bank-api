@@ -1,8 +1,4 @@
-Here’s a polished **README.md** template for your project bank-api (repo: [round-6-fawry-intern/bank-api](https://github.com/round-6-fawry-intern/bank-api)). You can copy and adapt it in your repository root for clarity and professionalism.
 
----
-
-```markdown
 # Bank API 🎯
 
 Backend service developed during the Fawry Egypt “Round 6” internship, providing banking-style API endpoints with focus on security, scalability, and real-time transaction workflows.
@@ -115,10 +111,4 @@ Mohamed Shalash – [m.shalash0@gmail.com](mailto:m.shalash0@gmail.com)
 LinkedIn: [linkedin.com/in/mohamed-shalash](https://linkedin.com/in/mohamed-shalash)
 GitHub: [github.com/mohamed-shalash](https://github.com/mohamed-shalash)
 
-```
 
----
-
-Feel free to tweak any sections (e.g., actual database used, message broker, exact endpoints) to better reflect what you built. Would you like me to **customize the README further** with diagrams, endpoint documentation, or sample JSON?
-::contentReference[oaicite:1]{index=1}
-```
